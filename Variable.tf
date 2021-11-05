@@ -11,6 +11,16 @@ variable "region" {
   description   = "AWS Region"
   type          = string
 }
+variable "aws_access_key" {
+  default       = "AKIA4HCHD4B2ZVHGCWDP"
+  description   = "AWS Region"
+  type          = string
+}
+variable "aws_secret_key" {
+  default       = "Lw0HMPiwflw4TrZMwzpD8G3Ee5eZhuaHcLkUEfl5"
+  description   = "AWS Region"
+  type          = string
+}
 variable "vpc-cidr" {
   default       = "10.0.0.0/16"
   description   = "VPC CIDR Block"
