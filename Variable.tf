@@ -12,12 +12,12 @@ variable "region" {
   type          = string
 }
 variable "aws_access_key" {
-  default       = "AKIA4HCHD4B2ZVHGCWDP"
+  default       = "AKIATI7HLWARFZ6KDAGE"
   description   = "AWS Region"
   type          = string
 }
 variable "aws_secret_key" {
-  default       = "Lw0HMPiwflw4TrZMwzpD8G3Ee5eZhuaHcLkUEfl5"
+  default       = "r4M8Mon8dxSLTDdFdLktUnkf7ISqbCc2k+9zKqVu"
   description   = "AWS Region"
   type          = string
 }
