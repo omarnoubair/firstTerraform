@@ -20,7 +20,7 @@ variable "aws_secret_key" {
   default       = "r4M8Mon8dxSLTDdFdLktUnkf7ISqbCc2k+9zKqVu"
   description   = "AWS Region"
   type          = string
-}
+}*/
 variable "vpc-cidr" {
   default       = "10.0.0.0/16"
   description   = "VPC CIDR Block"
@@ -121,4 +121,4 @@ variable "subnet-3" {
   description   = "Region Subnet 3"
   type          = string
 } 
-*/
+
